@@ -7,4 +7,7 @@ public class memberDAO {
 		return instance;
 	}
 	
+	public void delete() {
+		System.out.println("안녕");
+	}
 }
