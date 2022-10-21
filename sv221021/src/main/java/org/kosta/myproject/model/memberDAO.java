@@ -6,5 +6,7 @@ public class memberDAO {
 	public static memberDAO getInstance() {
 		return instance;
 	}
-	
+	public void login() {
+		System.out.println("메롱");
+	}
 }
