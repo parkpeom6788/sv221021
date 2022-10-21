@@ -6,7 +6,13 @@ public class memberDAO {
 	public static memberDAO getInstance() {
 		return instance;
 	}
+	
+	public void register() {
+		System.out.println("안녕");
+	}
+
 	public void login() {
 		System.out.println("메롱");
 	}
+	
 }
